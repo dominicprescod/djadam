@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.min.js"></script>
     <script src="./js/app.js" charset="utf-8"></script>
     <link rel="stylesheet" href="../css/main.css" media="screen" title="no title" charset="utf-8">
     <title>DJ Adam</title>
+    <base href="/">
   </head>
   <body>
     <header>
@@ -28,6 +30,9 @@
 
       </div>
     </header>
+    <section ng-view>
+
+    </section>
 
   </body>
 </html>

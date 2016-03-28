@@ -23,6 +23,13 @@ router.get('/adam', function(req,res){
 });
 
 
+router.get('/getevents', function(req, res){
+  Events.find(function(err, data){
+    res.send(data);
+  });
+});
+
+
 
 // Export
 module.exports = router;
