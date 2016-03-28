@@ -35,8 +35,8 @@ app.use(function(req, res, next) {
   next();
 });
 
-var eventSeedController = require('./controllers/eventSeed.js');
-app.use('/eventSeed', eventSeedController);
+// var eventSeedController = require('./controllers/eventSeed.js');
+// app.use('/eventSeed', eventSeedController);
 
 
 // Connect & Listen
