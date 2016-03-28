@@ -1,0 +1,25 @@
+body{
+  background: yellow;
+}
+#nav-bar {
+  background: black;
+  color: white;
+  height: 115px;
+}
+#nav-bar > ul {
+  list-style: none;
+  display: inline-flex;
+  float: right;
+  text-align: center;
+}
+
+#nav-bar > ul > li{
+  padding-right: 90px;
+  padding-left: 10px;
+}
+
+#nav-bar > img{
+  height: 100px;
+  width: 200px;
+  padding-right: 20%;
+}
