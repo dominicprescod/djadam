@@ -12,6 +12,9 @@ img {
 
 }
 
+ul {
+  margin-top: 50px;
+}
 button {
     width: 80%;
     height: 100px;
