@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background: black;
+  width: 100%;
+  height: 150px;
+}
+
+header img {
+    width: 25%;
+    display: inline-block;
+    margin: 1%;
+}
+
+header h1 {
+  color: goldenrod;
+  display: inline-block;
+  float: right;
+  font-size: 100px;
+  margin-right: 4%;
+  margin-top: 1%;
+  font-family: sans-serif;
+}
+
+main {
+  text-align: center;
+  background: black;
+  width: 100%;
+  height: 1590px;
+  padding-top: 5%;
+}
+
+#pic-container {
+  height: 30%;
+  margin-bottom: 3%;
+}
+
+#pic-container img {
+  width: 90%;
+  height: 100%;
+}
+
+#text-container {
+  height: 68%;
+  overflow: scroll;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#text-container p {
+  color: lightgray;
+  font-family: serif;
+  font-size: 40px;
+  text-align: justify;
+  width: 99%;
+}
+
+#menu {
+  background: goldenrod;
+  margin: 12% auto;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -270px;
+  display: none;
+}
+#menu ul {
+  text-align: center;
+  margin-top: 15%;
+}
+
+#menu ul li button {
+  font-family: 'Homemade Apple', cursive;
+  width: 80%;
+  height: 150px;
+  font-size: 60px;
+  border: none;
+  background: none;
+  margin-bottom: 60px;
+  color: black;
+  border-bottom: 5px solid white;
+}
+
+#clients-image {
+  width: 90%;
+}

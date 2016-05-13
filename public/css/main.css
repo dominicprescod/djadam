@@ -20,12 +20,10 @@ button {
   font-family: 'Homemade Apple', cursive;
   width: 80%;
   height: 150px;
-  font-size: 80px;
+  font-size: 60px;
   border: none;
   background: none;
-  border-radius: 80px;
   margin-bottom: 60px;
-  box-shadow: 425px 5px goldenrod;
   color: goldenrod;
-  text-align: left;
+  border-bottom: 5px solid white;
 }
