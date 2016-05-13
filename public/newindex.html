@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app='djAdam'>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="./js/about.js" charset="utf-8"></script>
+    <script src="./js/app.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="../css/about.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="../css/main.css" media="screen" title="no title" charset="utf-8">
+    <title>DJ Adam</title>
+    <base href="/">
+  </head>
+  <body ng-controller="bodyController as bod">
+    <div ng-if="bod.currentView === 0" ng-include="'./partials/index.html'"></div>
+    <div ng-if="bod.currentView === 1" ng-include="'./partials/about.html'"></div>
+    <div ng-if="bod.currentView === 2" ng-include="'./partials/clients.html'"></div>
+    <div ng-if="bod.currentView === 3" ng-include="'./partials/sounds.html'"></div>
+    <div ng-if="bod.currentView === 4" ng-include="'./partials/video.html'"></div>
+    <div ng-if="bod.currentView === 5" ng-include="'./partials/gallery.html'"></div>
+  </body>
+</html>
