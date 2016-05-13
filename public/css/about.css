@@ -88,3 +88,15 @@ main {
 #clients-image {
   width: 90%;
 }
+
+
+#instafeed {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+#instafeed a img {
+  width: 40%;
+  margin: 1%;
+}
