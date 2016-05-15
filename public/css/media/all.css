@@ -1,0 +1,15 @@
+
+@font-face {
+  font-family: 'Don Butique';
+  src: url('../assets/fonts/donbutique.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Don Butique';
+}
+
+body {
+  background: url('../assets/photos/background.png');
+}
