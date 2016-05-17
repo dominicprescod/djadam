@@ -1,5 +1,5 @@
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 391px) {
+/*@media only screen and (orientation: portrait) {*/
   /* Styles */
 
 
@@ -8,6 +8,7 @@
     background: url('https://images.unsplash.com/photo-1457986828214-c743e4375f5f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=dad87212ca7e8c7d7bd8516b76f4e515');
     background-size: 200%;
     background-repeat: no-repeat;
+    background-position: fixed;
 }
 
   img {
@@ -15,12 +16,9 @@
   }
 
   ul {
-    margin: -10% auto;
+    margin: -15% auto;
   }
 
-  ul li {
-    margin-bottom: 5%;
-  }
 
   button {
       width: 100%;
@@ -28,9 +26,9 @@
       font-size: 30px;
       border: none;
       background: none;
-      color: #a58030;
+      color: white;
   }
 
 
 
-}
+/*}*/

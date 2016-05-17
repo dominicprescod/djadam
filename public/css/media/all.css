@@ -11,5 +11,13 @@
 }
 
 body {
-  background: url('../assets/photos/background.png');
+  background-position: fixed;
+}
+
+
+.box {
+  margin: 0 auto;
+  background: black;
+  width:90%;
+  height: 50%;
 }
