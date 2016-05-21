@@ -1,0 +1,13 @@
+@media only screen and (orientation: portrait) and (max-width: 500px)  {
+
+
+  .index ul {
+    margin-top: 5%;
+  }
+
+  .index ul li {
+      display: block;
+      margin-bottom: 5%;
+  }
+
+}
