@@ -21,26 +21,26 @@
   </head>
   <body>
     <header>
-      <img src="./css/assets/photos/logo.png" alt="" />
-      <ul>
-        <li>about.</li>
-        <li>clients & sponsors.</li>
-        <li>sounds.</li>
-        <li>video.</li>
-        <li>gallery.</li>
-        <li>reach out.</li>
+      <a href="#home" data-menuanchor="#home"><img src="./css/assets/photos/logo.png" alt="" /></a>
+      <ul class="mymenu">
+        <li data-menuanchor='about'><a href="#about">about.</a></li>
+        <li data-menuanchor='clients'><a href="#clients">clients & sponsors.</a></li>
+        <li data-menuanchor='sounds'><a href="#sounds">sounds.</a></li>
+        <li data-menuanchor='video'><a href="#video">video.</a></li>
+        <li data-menuanchor='gallery'><a href="#gallery">gallery.</a></li>
+        <li data-menuanchor='reachout'><a href="#reachout">reach out.</a></li>
       </ul>
     </header>
     <div id="fullpage">
       <div class="index section">
         <img src="./css/assets/photos/logo.png" alt="" />
-        <ul id="mymenu">
+        <ul class="mymenu">
           <li data-menuanchor='about'><a href="#about">about.</a></li>
-          <li><a href="/clients.html">clients & sounds.</a></li>
-          <li><a href="/sounds.html">sounds.</a></li>
-          <li><a href="/video.html">video.</a></li>
-          <li><a href="/gallery.html">gallery.</a></li>
-          <li><a href="/reachout.html">reach out.</a></li>
+          <li data-menuanchor='clients'><a href="#clients">clients & sponsors.</a></li>
+          <li data-menuanchor='sounds'><a href="#sounds">sounds.</a></li>
+          <li data-menuanchor='video'><a href="#video">video.</a></li>
+          <li data-menuanchor='gallery'><a href="#gallery">gallery.</a></li>
+          <li data-menuanchor='reachout'><a href="#reachout">reach out.</a></li>
         </ul>
       </div>
       <div class="section">
@@ -79,6 +79,24 @@
           <div id="instafeed">
 
           </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="contact-container">
+          <div class="my-info">
+            <h1>Contact me</h1>
+            <a target="_blank" title="find us on Facebook" href="https://www.facebook.com/AdamSubtractem/"><img alt="follow me on facebook" src="//login.create.net/images/icons/user/facebook_30x30.png" border=0></a>
+            <a target="_blank" title="follow me on twitter" href="https://twitter.com/adamsubtractem1"><img alt="follow me on twitter" src="//login.create.net/images/icons/user/twitter-b_30x30.png" border=0></a>
+          </div>
+
+          <form id="form" method="post">
+            <h1>Email Me</h1>
+            <input type="text" name="name" placeholder="First Name">
+            <input type="text" name="name" placeholder="Last Name">
+            <input id="last" type="text" name="name" placeholder="Email">
+            <textarea placeholder="Say something nice"></textarea>
+            <button type="button" name="button">Send</button>
+          </form>
         </div>
       </div>
     </div>

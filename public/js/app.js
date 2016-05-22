@@ -1,6 +1,6 @@
 $(function(){
   $('#fullpage').fullpage({
-    anchors: ['home', 'about', 'clients', 'sounds', 'video', 'gallery'],
+    anchors: ['home', 'about', 'clients', 'sounds', 'video', 'gallery', 'reachout'],
     scrollOverflow: true
   });
 

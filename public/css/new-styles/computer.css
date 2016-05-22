@@ -42,7 +42,7 @@ body {
 }
 
 header {
-  /*position:fixed;*/
+  position: relative;
   height: 50px;
   display:block;
   width: 100%;
@@ -52,7 +52,6 @@ header {
   color: #f2f2f2;
   padding: 20px 0 0 0;
   top: 0;
-  margin-bottom: 1%;
 }
 
 header img {
@@ -70,11 +69,18 @@ header ul {
   margin-top: -5px;
 }
 
+header ul li a {
+  text-decoration: none;
+  color: #B49038;
+}
+
 header ul li {
   display: inline-block;
   font-size: xx-large;
-  color: #B49038;
+
 }
+
+
 
 #about-me {
   width: 95%;
@@ -130,14 +136,72 @@ header ul li {
   text-align: center;
 }
 
-.video-container iframe {
-  width: 50%;
-}
-
 .instagram-container {
   text-align: center;
 }
 
 #instafeed a img{
   width: 20%;
+}
+
+.contact-container {
+  height: 100%;
+  text-align: center;
+}
+
+.my-info {
+  height:20%;
+}
+
+.my-info h1 {
+  color: white;
+  font-family: monospace;
+  font-size: -webkit-xxx-large;
+  text-align: left;
+}
+
+.my-info p {
+  color: white;
+}
+
+#form {
+    height: 80%;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#form h1 {
+    color: white;
+    font-family: monospace;
+    font-size: -webkit-xxx-large;
+}
+
+#form input {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+  height: 20px;
+  margin-bottom: 1%;
+  font-size: medium;
+  text-align: left;
+}
+
+#form button {
+  width: 40%;
+height: 70px;
+background: none;
+border: none;
+border-top: 1px solid white;
+font-size: 40px;
+margin: 0 auto;
+color: goldenrod;
+margin-top: 5%;
+display: block;
+}
+
+textarea {
+  width: 40%;
+height: 150px;
+font-size: medium;
 }
