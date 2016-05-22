@@ -47,7 +47,7 @@ header {
   display:block;
   width: 100%;
   background: white;
-  z-index:9;
+  z-index: 9;
   /*text-align:center;*/
   color: #f2f2f2;
   padding: 20px 0 0 0;
@@ -83,4 +83,61 @@ header ul li {
 
 #text-container p {
   text-align: justify;
+}
+
+
+#section1 img{
+    margin: 20px 0 0 0;
+  }
+  #section2 img{
+    margin: 20px 0 0 52px;
+  }
+  #section3 img{
+    bottom: 0px;
+    position: absolute;
+    margin-left: -420px;
+  }
+  .intro p{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5em;
+  }
+
+
+  .clients-container {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .clients-container img {
+    height: 70%;
+    width: 30%;
+  }
+
+
+.sounds-container {
+  text-align: center;
+}
+
+.sounds-container iframe {
+  width: 60%;
+  height: 80%;
+}
+
+
+.video-container {
+  text-align: center;
+}
+
+.video-container iframe {
+  width: 50%;
+}
+
+.instagram-container {
+  text-align: center;
+}
+
+#instafeed a img{
+  width: 20%;
 }
