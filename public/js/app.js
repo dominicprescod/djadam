@@ -1,19 +1,28 @@
 $(function(){
-  var $landscape = $('<link rel="stylesheet" href="../css/media/sm-landscape.css" media="screen" title="no title" charset="utf-8">');
-  var $portrait = $('<link rel="stylesheet" href="../css/media/sm-portrait.css" media="screen" title="no title" charset="utf-8">');
-
-  var checkSize = function(){
-    if( $(window).width() > $(window).height()){
-      $('head').append($landscape);
-      if($('head').has($portrait)) $portrait.remove();
-    } else {
-      $('head').append($portrait);
-      if($('head').has($landscape)) $landscape.remove();
-    }
-  };
-  checkSize();
-
-  $(window).resize(function(){
-    checkSize();
+  $('#fullpage').fullpage({
+    anchors: ['home', 'about'],
+    scrollOverflow: true
   });
+  
+  $('header').css('display', 'none');
+
+  var checkWindow = function(){
+    if(window.location.href.indexOf("#home") >= 0) {
+      setTimeout(function(){
+      $('header').css('display', 'none');
+    }, 500);
+    } else {
+      setTimeout(function(){
+      $('header').css('display', 'block');
+    }, 500);
+    }
+
+  };
+
+  $(window).on('hashchange', function(e){
+    checkWindow();
+  });
+
+
+
 });

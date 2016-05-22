@@ -4,9 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
+    <link rel="../css/jquery.fullPage.css" href="/css/master.css" media="screen" title="no title" charset="utf-8">
     <script src="./js/jquery.js" charset="utf-8"></script>
-    <script src="./js/jcarousel.js" charset="utf-8"></script>
-    <!-- <script src="./js/app.js" charset="utf-8"></script> -->
+        <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+    <script src="./js/vendors/jquery.easings.min.js"></script>
+    <!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
+    <script type="text/javascript" src="./js/vendors/jquery.slimscroll.min.js"></script>
+    <script src="./js/jquery.fullpage.js" charset="utf-8"></script>
+    <script src="./js/app.js" charset="utf-8"></script>
     <link rel="stylesheet" href="../css/media/all.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="../css/new-styles/computer.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="../css/new-styles/smartphone.css" media="screen" title="no title" charset="utf-8">
@@ -14,16 +19,44 @@
     <base href="/">
   </head>
   <body>
-    <div class="index">
+    <header>
       <img src="./css/assets/photos/logo.png" alt="" />
       <ul>
-        <li><a href="/about.html">about.</a></li>
-        <li><a href="/clients.html">clients & sounds.</a></li>
-        <li><a href="/sounds.html">sounds.</a></li>
-        <li><a href="/video.html">video.</a></li>
-        <li><a href="/gallery.html">gallery.</a></li>
-        <li><a href="/reachout.html">reach out.</a></li>
+        <li>about.</li>
+        <li>clients & sponsors.</li>
+        <li>sounds.</li>
+        <li>video.</li>
+        <li>gallery.</li>
+        <li>reach out.</li>
       </ul>
+    </header>
+    <div id="fullpage">
+      <div class="index section">
+        <img src="./css/assets/photos/logo.png" alt="" />
+        <ul id="mymenu">
+          <li data-menuanchor='about'><a href="#about">about.</a></li>
+          <li><a href="/clients.html">clients & sounds.</a></li>
+          <li><a href="/sounds.html">sounds.</a></li>
+          <li><a href="/video.html">video.</a></li>
+          <li><a href="/gallery.html">gallery.</a></li>
+          <li><a href="/reachout.html">reach out.</a></li>
+        </ul>
+      </div>
+      <div class="section">
+        <div id="about-me">
+          <div id="pic-container">
+            <img src="http://www.adamsubtractem.com/uploads/1/2/1/5/12158160/1337290.jpg?472" alt="">
+          </div>
+          <div id="text-container">
+            <p>Adam Subtract'em has honed his skills over the years as a DJ among NYC's club elite, having played some of the city's hottest venues like Hammerstein Ballroom, Tao Group's Vandal, The Standard Hotel, The Diamond Horseshoe, Le Baron, Hotel Chantelle, Lavo, Jimmy at The James, Goldbar, and many more. Adam has toured the U.S. and internationally, with music festivals, private clients, and independently headlining.  Adam has simultaneously and seamlessly transitioned into the worlds of Fashion and Runway, PR, Marketing and Branding, as a vital contributor in the audio sector.<br><br>
+            Since he’s been creating heart-thumping musical atmosphere for the runway, in showrooms, and introducing brands and ideas to the public far and wide,  Adam’s ever expanding client list includes Swarovski, Cartier, Prada/Miu Miu, Tom Ford, Bloomingdales, Goldwell/KMS, Hilton Worldwide, Perrier, Ray Ban, Luxottica, Royal Caribbean, Disney, Iconix Brand Group and the one and only Madonna for her Material Girl line.  His talents as MC/host are often utilized in conjunction with his DJ sets.<br><br>
+            Adam's experience in brand representation began over 10 years ago as a model, working for a list of world-renowned designers and labels, including Ermenegildo Zegna, Calvin Klein, Yigal Azrouel, and Escada.  He holds a deep understanding of the pacing, rhythm, structure, story and technical musts involved in the execution of high caliber productions.<br><br>
+            Adam has also worked as a Film and TV Producer and Music Supervisor, hand-picking music for networks like MTV and Lifetime.  In addition, he selects music as programmer for an array of highly recognizeable Brands and Design Labels, as well as New York's premier venues and retail operations.  His musical knowledge spans many styles and genres, allowing Adam great versatility in nearly any atmosphere. He feels extremely lucky to be able tie his many passions into a broad portfolio anchored by his greatest of passions - Music.<br><br>
+            Adam’s attention to clients is unmatched with his custom tailored, case specific approach to audio design and music selection.  Adam is a strict planner, but appreciates creative improvisation, as he feels this keeps his sound fresh, and continually evolving. He thrives on moving each crowd in a different way, providing a unique experience for all; Adam’s greatest mark of success and satisfaction is a connection forged with each audience member.</p>
+          </div>
+        </div>
+      </div>
     </div>
+
   </body>
 </html>

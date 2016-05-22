@@ -3,7 +3,6 @@ body {
   height: 100vh;
   background: url('../assets/photos/background.png');
   background-size: cover;
-  overflow: hidden;
 }
 
 .index {
@@ -26,5 +25,62 @@ body {
   text-decoration: none;
   color: white;
   font-size: 50px;
+}
 
+#pic-container {
+  float: left;
+}
+
+#text-container {
+  height: 100%;
+  color: white;
+  font-size: larger;
+}
+
+#text-container p {
+  font-family: monospace;
+}
+
+header {
+  /*position:fixed;*/
+  height: 50px;
+  display:block;
+  width: 100%;
+  background: white;
+  z-index:9;
+  /*text-align:center;*/
+  color: #f2f2f2;
+  padding: 20px 0 0 0;
+  top: 0;
+  margin-bottom: 1%;
+}
+
+header img {
+  width: 250px;
+  float: left;
+  margin-top: -5%;
+  position: absolute;
+  top: 28px;
+  left: -30px;
+}
+
+header ul {
+  float: right;
+  list-style: none;
+  margin-top: -5px;
+}
+
+header ul li {
+  display: inline-block;
+  font-size: xx-large;
+  color: #B49038;
+}
+
+#about-me {
+  width: 95%;
+  margin: 0 auto;
+}
+
+#text-container p {
+  text-align: justify;
 }
